@@ -817,3 +817,74 @@ th {
 .navbar-collapse.show {
   background: transparent !important;
 }
+
+.bao-soo {
+  position: fixed;
+  right: 1px;
+  bottom: 100px;
+  z-index: 99999;
+}
+
+.tooltip2 {
+  position: relative;
+  display: block;
+  background-image: url(wp-content/uploads/2020/11/widget_icon_click_to_call-1-1.svg);
+  text-align: center;
+  background-repeat: no-repeat;
+  width: 100px !important;
+  height: 65px !important;
+  margin: 6px !important;
+  background-position: center center;
+  z-index: 9999;
+}
+
+.tooltip2 .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+  left: -130px;
+  text-align: center;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip2:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip3 {
+  position: relative;
+  display: block;
+  background-image: url(wp-content/uploads/2020/11/widget_icon_zalo-1-1.svg);
+  text-align: center;
+  background-repeat: no-repeat;
+  width: 100px !important;
+  height: 66px !important;
+  margin: 6px !important;
+  background-position: center center;
+  z-index: 9999;
+}
+
+.tooltip3 .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: -130px;
+  z-index: 1;
+}
+
+.tooltip3:hover .tooltiptext {
+  visibility: visible;
+}
